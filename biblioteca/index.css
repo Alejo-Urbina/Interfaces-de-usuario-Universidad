@@ -59,3 +59,7 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+.image-container {
+    text-align: center;
+}
