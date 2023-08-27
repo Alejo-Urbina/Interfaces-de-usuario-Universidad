@@ -10,3 +10,9 @@ header {
     color: white; /* Color del texto */
     padding: 10px; /* Espaciado interior */
 }
+
+nav ul {
+    list-style: none;   /* Elimina los puntos de la lista */
+    margin: 0;          /* Elimina el margen externo */
+    padding: 0;         /* Elimina el relleno interno */
+}
