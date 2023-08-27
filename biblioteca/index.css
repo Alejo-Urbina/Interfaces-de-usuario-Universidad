@@ -16,3 +16,16 @@ nav ul {
     margin: 0;          /* Elimina el margen externo */
     padding: 0;         /* Elimina el relleno interno */
 }
+
+nav li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 20px; /* Espacio entre elementos */
+    font-weight: bold; /* Hacer el texto en negrita */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    color: #333; /* Color del texto */
+    transition: color 0.3s ease; /* Transición de color suave al pasar el ratón */
+}
+
+nav li:hover {
+    color: #1976D2; /* Cambiar el color al pasar el ratón */
+}
