@@ -11,3 +11,8 @@ document.getElementById("textoCambiante").addEventListener("mouseover", function
 document.getElementById("textoCambiante").addEventListener("mouseout", function () {
     this.textContent = "Pasa el mouse aquí para cambiar el texto.";
 });
+
+document.getElementById("toggleBtn").addEventListener("click", function () {
+    var contenidoDiv = document.getElementById("contenidoOculto");
+    contenidoDiv.style.display = contenidoDiv.style.display === "none" ? "block" : "none";
+});
