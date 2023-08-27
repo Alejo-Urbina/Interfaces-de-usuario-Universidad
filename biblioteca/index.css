@@ -47,3 +47,7 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.imagen-con-margen {
+    margin: 20px;
+}
