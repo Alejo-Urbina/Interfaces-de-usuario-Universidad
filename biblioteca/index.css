@@ -4,3 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: #1976D2; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interior */
+}
